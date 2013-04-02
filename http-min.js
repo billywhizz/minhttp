@@ -1,5 +1,4 @@
 var Socket = require("./lib/httpd").Socket;
-var Buffer = process.binding("buffer").SlowBuffer;
 var ka = "HTTP/1.1 200 OK\r\nContent-Length: 0\r\nServer: node\r\nConnection: Keep-Alive\r\n\r\n";
 var kalen = ka.length;
 var server;
